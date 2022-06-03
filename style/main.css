@@ -49,10 +49,17 @@ body{
 }
 
 .card-frame{
-  position: relative;
   width: 110%;
   margin-left: -20%;
-  top: -85vh;
+  top: 0px;
+  background-image: url("../assets/img/main.jpg");
+  background-size: cover;
+}
+
+.card-frame-img{
+  width: 100%;
+  height: auto;
+  top: 0px;
 }
 
 .card-content{
@@ -63,7 +70,7 @@ body{
 
 .card-text{
   position: absolute;
-  top: 42%;
+  bottom: 10%;
   width: 100%;
   margin-left: -15%;
   text-align: center;
@@ -71,7 +78,7 @@ body{
 
 .card-icon{
   position: absolute;
-  bottom: 50%;
+  bottom: 4%;
   width: 100%;
   margin-left: -15%;
   text-align: center;
@@ -303,6 +310,7 @@ header h1{
 }
 
 [class*="profile-item-name"]{
+  font-size: 1.4vw;
   font-weight: bold;
 }
 .profile-item-name__yellow{
@@ -370,7 +378,7 @@ header h1{
   background: linear-gradient(0deg, rgba(161,79,38,1) 46%, rgba(204,105,55,1) 54%);
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
 	/* For desktop: */
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
