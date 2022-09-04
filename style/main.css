@@ -299,6 +299,24 @@ footer a .section-content{
   position: absolute;
 }
 
+.icon-container img{
+  max-width: 90px;
+}
+
+.subscribe-button{
+  background-color: #fd9825;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  padding: 3px 5px 3px 5px;
+  height: 100%;
+  width: 100px;
+}
+
+.b-container{
+  margin-top: 10px;
+}
+
 @media only screen and (min-width: 768px) {
 	/* For tablets: */
 	.col-1 {width: 8.33%;}
