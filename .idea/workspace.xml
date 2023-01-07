@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf62c58-5177-44bf-9b22-1e0a09152f66" name="Default Changelist" comment="Redesign">
-      <change afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hmanager.html" beforeDir="false" afterPath="$PROJECT_DIR$/hmanager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hmanager.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hmanager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/reimoo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/reimoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rushify.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rushify.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reimoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/reimoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rushify.html" beforeDir="false" afterPath="$PROJECT_DIR$/rushify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reimoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dombot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +26,8 @@
     <option name="defaultAccountId" value="9bdbd997-a584-499e-b155-129eed9ad294" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/style/main.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/style/main.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,13 +38,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +91,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix display issues" />

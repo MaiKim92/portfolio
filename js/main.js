@@ -49,10 +49,12 @@ $('document').ready(function(){
         $('#language-csharp').removeClass("active");
         $('#language-java').removeClass("active");
         $('#language-js').removeClass("active");
+        $('#language-python').removeClass("active");
       }
       $('.language-csharp').show();
       $('.language-java').show();
       $('.language-js').show();
+      $('.language-python').show();
     });
 
     $('#language-csharp').click(function(event){
@@ -62,10 +64,12 @@ $('document').ready(function(){
         $('#language-csharp').addClass("active");
         $('#language-java').removeClass("active");
         $('#language-js').removeClass("active");
+        $('#language-python').removeClass("active");
       }
       $('.language-csharp').show();
       $('.language-java').hide();
       $('.language-js').hide();
+      $('.language-python').hide();
     });
 
     $('#language-java').click(function(event){
@@ -75,10 +79,12 @@ $('document').ready(function(){
         $('#language-csharp').removeClass("active");
         $('#language-java').addClass("active");
         $('#language-js').removeClass("active");
+        $('#language-python').removeClass("active");
       }
       $('.language-csharp').hide();
       $('.language-java').show();
       $('.language-js').hide();
+      $('.language-python').hide();
     });
 
     $('#language-js').click(function(event){
@@ -88,10 +94,27 @@ $('document').ready(function(){
         $('#language-csharp').removeClass("active");
         $('#language-java').removeClass("active");
         $('#language-js').addClass("active");
+        $('#language-python').removeClass("active");
       }
       $('.language-csharp').hide();
       $('.language-java').hide();
       $('.language-js').show();
+      $('.language-python').hide();
+    });
+
+    $('#language-python').click(function(event){
+      event.preventDefault();
+      if(!$('#language-python').hasClass("active")){
+        $('#language-all').removeClass("active");
+        $('#language-csharp').removeClass("active");
+        $('#language-java').removeClass("active");
+        $('#language-js').removeClass("active");
+        $('#language-python').addClass("active");
+      }
+      $('.language-csharp').hide();
+      $('.language-java').hide();
+      $('.language-js').hide();
+      $('.language-python').show();
     });
 
     $('#status-all').click(function(event){
